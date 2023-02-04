@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/rolling-logo-circle.png" />
+    <meta name="description" content="Servicio de streaming Rolling+" />
+    <meta name="author" content="Group 1, Comision 39i" />
+    <meta name="keywords" content="Peliculas, Series, Terror, Comedia" />
+    <link rel="shortcut icon" href="./img/rolling-logo-circle.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Rolling+</title>
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg py-3">
+      <nav class="container-fluid d-flex align-items-center">
+        <div class="container-image d-none d-lg-block">
+          <a class="navbar-brand" href="./index.html"
+            ><img src="./img/rolling-logo-circle.png" class="w-100" alt="Logo"
+          /></a>
+        </div>
+        <div class="d-flex w-100 px-2">
+          <div class="d-flex">
+            <button
+              class="navbar-toggler px-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="navbar-toggler-icon bi bi-list"></i>
+            </button>
+            <form class="d-flex align-items-center ms-4" role="search">
+              <i class="bi bi-search"></i>
+              <input
+                class="w-75 ms-3"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+            </form>
+          </div>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mt-4 mt-lg-0 me-lg-4 mb-4 mb-lg-0">
+            <li class="menu-item">
+              <a
+                class="menu-link link-active"
+                aria-current="page"
+                href="./index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="menu-item">
+              <a
+                class="menu-link"
+                href="./pages/series.html"
+                >Series</a
+              >
+            </li>
+            <li class="menu-item">
+              <a
+                class="menu-link"
+                href="./pages/movies.html"
+                >Películas</a
+              >
+            </li>
+            <li class="menu-item">
+              <a
+                class="menu-link"
+                href="./pages/subscriptions.html"
+                >Suscripciones</a
+              >
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="./pages/we.html">Nosotros</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="./pages/contact.html">Contactos</a>
+            </li>
+            
+          </ul>
+          <div class="btn-login">
+            <button
+            class="btn btn-primary btn-login"
+            data-bs-toggle="modal"
+            data-bs-target="#button-modal">
+            Login
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- modal -->
+      <div
+        class="modal fade"
+        id="button-modal"
+        tabindex="-1"
+        aria-labelledby="modal-label"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div data-bs-theme="dark">
+              <h3 class="fw-bold text-login text-center">INICIA SESION</h3>
+              <button
+                type="button"
+                class="btn-close position-absolute"
+                data-bs-dismiss="modal"
+                aria-label="cerrar"
+              ></button>
+            </div>
+            <hr class="w-100" />
+            <div class="modal-body">
+              <!-- FORM -->
+              <form action="./pages/error404.html" class="form-login">
+                <div class="mb-3">
+                  <label for="InputEmail" class="form-label"
+                    >Correo electronico</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="example@rolling.com"
+                    aria-describedby="correo electronico"
+                    required
+                  />
+                  <!-- <div id="emailHelp" class="form-text text-white">Nunca compartiremos tu email con nadie.</div> -->
+                </div>
+                <div class="mb-3">
+                  <label for="InputPassword" class="form-label"
+                    >Contraseña</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    placeholder="*******"
+                    minlength="8"
+                    required
+                  />
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" />
+                  <label class="form-check-label" for="Check">Recuerdame</label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-login w-100">
+                 Ingresar
+                </button>
+                <div class="col-12 text-center">
+                  <p class="mt-4">
+                    ¿Primera vez en Rolling+?
+                    <a href="./pages/subscriptions.html">Suscribite ahora</a>
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section>
+        <section class="sec-banner">
+          <article
+            class="banner-title h-100 d-flex flex-column justify-content-center align-items-center"
+          >
+            <h1 class="text-center text-uppercase">
+              tus películas favoritas en un <span>solo lugar</span>
+            </h1>
+            <i class="bi bi-arrow-down"></i>
+          </article>
+        </section>
+      <section class="sec-recommended mt-4 ms-3">
+        <article class="recommended">
+          <h4>Recomendaciones para vos</h4>
+          <div class="movies d-flex w-100">
+            <div class="movie">
+              <a href="./pages/error404.html">
+                <img
+                  class="h-100"
+                  src="./img/recommended/recommended-1.jpg"
+                  alt="Pelicula recomendada"
+              /></a>
+            </div>
+            <div class="movie">
+              <a href="./pages/error404.html">
+                <img
+                  class="h-100"
+                  src="./img/recommended/recommended-2.jpg"
+                  alt="Pelicula recomendada"
+              /></a>
+            </div>
+            <div class="movie">
+              <a href="./pages/error404.html">
+                <img
+                  class="h-100"
+                  src="./img/recommended/recommended-3.jpg"
+                  alt="Pelicula recomendada"
+              /></a>
+            </div>
+            <div class="movie">
+              <a href="./pages/error404.html">
+                <img
+                  class="h-100"
+                  src="./img/recommended/recommended-4.jpg"
+                  alt="Pelicula recomendada"
+              /></a>
+            </div>
+            <div class="movie">
+              <a href="./pages/error404.html">
+                <img
+                  class="h-100"
+                  src="./img/recommended/recommended-5.jpg"
+                  alt="Pelicula recomendada"
+              /></a>
+            </div>
+            <div class="movie">
+              <a href="./pages/error404.html">
+                <img
+                  class="h-100"
+                  src="./img/recommended/recommended-6.jpg"
+                  alt="Pelicula recomendada"
+              /></a>
+            </div>
+            <div class="movie">
+              <a href="./pages/error404.html">
+                <img
+                  class="h-100"
+                  src="./img/recommended/recommended-7.jpg"
+                  alt="Pelicula recomendada"
+              /></a>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="sec-publicity w-100 ">
+        <article
+          class="publicity h-100 d-flex flex-column flex-md-row  justify-content-center align-items-center"
+        >
+          <div class="publicity-images">
+            <img
+              src="./img/movies/marvel/marvel-6.jpg"
+              alt="Imagen de publicidad"
+            />
+          </div>
+          <div class="publicity-text d-flex flex-column align-items-center align-items-md-start mt-3">
+            <h3 class="text-uppercase">
+              lo mejor de <span class="text-capitalize">rolling+</span>
+            </h3>
+            <p class="fw-light">Sin anuncios</p>
+              <a  href="./pages/subscriptions.html"
+                ><button class="btn-primary">Ver</button></a
+              >
+          </div>
+        </article>
+      </section>
+      <section class="sec-suscription text-center text-md-start">
+        <article
+          class="suscription d-flex flex-column flex-md-row justify-content-center align-items-center h-100"
+        >
+          <div class="text-md-end order-md-1">
+            <img src="./img/rolling-logo-circle.png" width="200rem" alt="Logo" />
+          </div>
+          <div class="suscription-text">
+            <h3>
+              CUANDO QUIERAS. <br />
+              DONDE QUIERAS.
+            </h3>
+            <p>
+              Pruebalo por 7 días gratis. Luego solo $699 al mes con impuestos
+              incluidos.
+            </p>
+            <a href="./pages/subscriptions.html">
+              <button class="btn-primary mt-2">Suscribite</button>
+            </a>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="py-3">
+      <section class="container text-center">
+        <article class="row">
+          <aside class="col-md-4">
+            <img src="./img/rolling-logo-circle.png" width="80rem" alt="Logo" />
+          </aside>
+          <aside class="col-md-4">
+            <h5 class="mt-2 mt-md-0">Redes</h5>
+            <div
+              class="socials mt-2 mt-md-0 d-flex justify-content-center text-center"
+            >
+              <a href="./pages/error404.html"><i class="bi bi-facebook"></i></a>
+              <a href="./pages/error404.html"><i class="bi bi-twitter"></i></a>
+              <a href="./pages/error404.html"><i class="bi bi-instagram"></i></a>
+            </div>
+          </aside>
+          <aside class="col-md-4">
+            <h5 class="mt-2 mt-md-0">Nosotros</h5>
+            <div class="sec-we mt-2 mt-md-0 d-flex flex-column text-center">
+              <a href="./pages/we.html" class="fw-light">Acerca de nosotros</a>
+              <a href="./pages/contact.html" class="fw-light">Contacto</a>
+            </div>
+          </aside>
+        </article>
+      </section>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

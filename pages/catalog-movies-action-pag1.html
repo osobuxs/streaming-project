@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/rolling-logo-circle.png" />
+    <meta name="description" content="Servicio de streaming Rolling+" />
+    <meta name="author" content="Group 1, Comision 39i" />
+    <meta name="keywords" content="Peliculas, Series, Terror, Comedia" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="shortcut icon" href="../img/rolling-logo-circle.png" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Rolling+</title>
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg py-3">
+      <nav class="container-fluid d-flex align-items-center">
+        <div class="container-image d-none d-lg-block">
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../img/rolling-logo-circle.png" class="w-100" alt="Logo"
+          /></a>
+        </div>
+        <div class="d-flex w-100 px-2">
+          <div class="d-flex">
+            <button
+              class="navbar-toggler px-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="navbar-toggler-icon bi bi-list"></i>
+            </button>
+            <form class="d-flex align-items-center ms-4" role="search">
+              <i class="bi bi-search"></i>
+              <input
+                class="w-75 ms-3"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+            </form>
+          </div>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mt-4 mt-lg-0 me-lg-4 mb-4 mb-lg-0">
+            <li class="menu-item">
+              <a class="menu-link"  href="../index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="menu-item">
+              <a
+                class="menu-link"
+                
+                href="./series.html"
+                >Series</a
+              >
+            </li>
+            <li class="menu-item">
+              <a
+                class="menu-link link-active"
+                aria-current="page"
+                href="./movies.html"
+                >Películas</a
+              >
+            </li>
+            <li class="menu-item">
+              <a
+                class="menu-link"
+                
+                href="./subscriptions.html"
+                >Suscripciones</a
+              >
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="./we.html">Nosotros</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="./contact.html">Contactos</a>
+            </li>
+            
+          </ul>
+          <a href="./profile.html">
+            <img
+              src="../img/profile/profile-01.png"
+              alt="logo de perfil"
+              class="profile-img-size"
+            />
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- banner -->
+      <section>
+        <div
+          id="carousel-autoplaying-banner"
+          class="carousel border slide border-banner"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators mb-2">
+            <button
+              type="button"
+              data-bs-target="#carousel-autoplaying-banner"
+              data-bs-slide-to="0"
+              aria-current="true"
+              aria-label="Slide 1"
+              class="active button mx-1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-autoplaying-banner"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+              class="button mx-1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-autoplaying-banner"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+              class="button mx-1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-autoplaying-banner"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+              class="button mx-1"
+            ></button>
+          </div>
+          <div class="carousel-inner sliderBanner">
+            <div class="carousel-item active">
+              <img
+                src="../img/banner-carrousel/banner-carrousel-large-1.jpg"
+                class="d-block w-100 rounded"
+                alt="Un mundo extraño"
+              />
+              <img
+                src="../img/banner-carrousel/banner-carrousel-large-2.png "
+                class="img-fluid position-absolute top-50 translate-middle-y title-banner"
+                alt="Un mundo extraño"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../img/banner-carrousel/banner-carrousel-large-3.jpg"
+                class="d-block w-100 rounded"
+                alt="Los montaner"
+              />
+              <img
+                src="../img/banner-carrousel/banner-carrousel-large-4.png"
+                class="img-fluid position-absolute top-50 translate-middle-y title-banner"
+                alt="Los montaner"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../img/banner-carrousel/banner-carrousel-large-5.jpg"
+                class="d-block w-100 rounded"
+                alt="Encanto"
+              />
+              <img
+                src="../img/banner-carrousel/banner-carrousel-large-6.png"
+                class="img-fluid position-absolute top-50 translate-middle-y title-banner"
+                id="img-distinta"
+                alt="Encanto"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../img/banner-carrousel/banner-carrousel-large-7.jpg"
+                class="d-block w-100 rounded"
+                alt="Willow"
+              />
+              <img
+                src="../img/banner-carrousel/banner-carrousel-large-8.png"
+                class="img-fluid position-absolute top-50 translate-middle-y title-banner"
+                id="img-distinta"
+                alt="Willow"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- categorias -->
+      <section class="py-3">
+        <article class="container-fluid">
+          <aside class="line-button">
+            <div class="button-series">
+              <a
+                href="./movies.html"
+                class="btn btn-outline-light mx-3 rounded-4 btn-sm"
+              >
+                Destacadas
+              </a>
+            </div>
+            <div class="button-series">
+              <a
+                href="./catalog-movies-comedy-pag1.html"
+                class="btn btn-outline-light mx-3 rounded-4 btn-sm"
+              >
+                Comedia
+              </a>
+            </div>
+            <div class="button-series">
+              <a
+                href="./catalog-movies-action-pag1.html"
+                class="btn btn-outline-light mx-3 rounded-4 btn-sm active"
+              >
+                Accion
+              </a>
+            </div>
+            <div class="button-series">
+              <a
+                href="./catalog-movies-children-pag1.html"
+                class="btn btn-outline-light mx-3 rounded-4 btn-sm"
+              >
+                Infantiles
+              </a>
+            </div>
+            <div class="button-series">
+              <a
+                href="./catalog-movies-terror-pag1.html"
+                class="btn btn-outline-light mx-3 rounded-4 btn-sm"
+              >
+                Terror
+              </a>
+            </div>
+            <div class="button-series">
+              <a
+                href="./catalog-movies-suspense-pag1.html"
+                class="btn btn-outline-light mx-3 rounded-4 btn-sm"
+              >
+                Suspenso
+              </a>
+            </div>
+            <div class="button-series">
+              <a
+                href="./catalog-movies-drama-pag1.html"
+                class="btn btn-outline-light mx-3 rounded-4 btn-sm"
+              >
+                Drama
+              </a>
+            </div>
+            <div class="button-series">
+              <a
+                href="./error404.html"
+                class="btn btn-outline-light mx-3 rounded-4 btn-sm"
+              >
+                Marvel
+              </a>
+            </div>
+            <div class="button-series">
+              <a
+                href="./error404.html"
+                class="btn btn-outline-light mx-3 rounded-4 btn-sm"
+              >
+                Documentales
+              </a>
+            </div>
+          </aside>
+        </article>
+      </section>
+      <!-- catalogo -->
+      <div class="container-catalog">
+        <div class="row">
+          <div class="col-6 col-md-4 col-lg-3 my-1 my-md-2">
+            <a href="./error404.html">
+              <img
+                src="../img/movies/action/action-1.jpg"
+                class="w-100 rounded-3 zoom-catalog"
+                alt="John Carter Entre dos mundos"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-1 my-md-2">
+            <a href="./error404.html">
+              <img
+                src="../img/movies/action/action-2.jpg"
+                class="w-100 rounded-3 zoom-catalog"
+                alt="Horas contadas"
+              />
+
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-1 my-md-2">
+            <a href="./error404.html">
+              <img
+                src="../img/movies/action/action-3.jpg"
+                class="w-100 rounded-3 zoom-catalog"
+                alt="Togo"
+              />
+
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-1 my-md-2">
+            <a href="./error404.html">
+              <img
+                src="../img/movies/action/action-4.jpg"
+                class="w-100 rounded-3 zoom-catalog"
+                alt="Duelo de titanes"
+              />
+
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-1 my-md-2">
+            <a href="./error404.html">
+              <img
+                src="../img/movies/action/action-5.jpg"
+                class="w-100 rounded-3 zoom-catalog"
+                alt="El llanero solitario"
+              />
+
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-1 my-md-2">
+            <a href="./error404.html">
+              <img
+                src="../img/movies/action/action-6.jpg"
+                class="w-100 rounded-3 zoom-catalog"
+                alt="Jungle Cruise"
+              />
+
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-1 my-md-2">
+            <a href="./error404.html">
+              <img
+                src="../img/movies/action/action-7.jpg"
+                class="w-100 rounded-3 zoom-catalog"
+                alt="Alicia en el pais de las maravillas"
+              />
+
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-1 my-md-2">
+            <a href="./error404.html">
+              <img
+                src="../img/movies/action/action-8.jpg"
+                class="w-100 rounded-3 zoom-catalog"
+                alt="Ant-man"
+              />
+
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-1 my-md-2">
+            <a href="./error404.html">
+              <img
+                src="../img/movies/action/action-9.jpg"
+                class="w-100 rounded-3 zoom-catalog"
+                alt="Big Hero 6"
+              />
+
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-1 my-md-2">
+            <a href="./error404.html">
+              <img
+                src="../img/movies/action/action-10.jpg"
+                class="w-100 rounded-3 zoom-catalog"
+                alt="Narnia - El principe caspian"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-1 my-md-2">
+            <a href="./error404.html">
+              <img
+                src="../img/movies/marvel/marvel-1.jpg"
+                class="w-100 rounded-3 zoom-catalog"
+                alt="Wakanda por siempre"
+              />
+
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-1 my-md-2">
+            <a href="./error404.html">
+
+              <img
+                src="../img/movies/marvel/marvel-2.jpg"
+                class="w-100 rounded-3 zoom-catalog"
+                alt="Doctor strange multiverso de la locura"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-1 my-md-2">
+            <a href="./error404.html">
+              <img
+                src="../img/movies/marvel/marvel-3.jpg"
+                class="w-100 rounded-3 zoom-catalog"
+                alt="avengers endgame"
+              />
+
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-1 my-md-2">
+            <a href="./error404.html">
+              <img
+                src="../img/movies/marvel/marvel-10.jpg"
+                class="w-100 rounded-3 zoom-catalog"
+                alt="Eternals"
+              />
+
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-1 my-md-2">
+            <a href="./error404.html">
+              <img
+                src="../img/movies/marvel/marvel-7.jpg"
+                class="w-100 rounded-3 zoom-catalog"
+                alt="Guardianes de la galaxia"
+                />
+
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 my-1 my-md-2">
+            <a href="./error404.html">
+              <img
+                src="../img/movies/recommended/recommended-5.jpg"
+                class="w-100 rounded-3 zoom-catalog"
+                alt="Avatar"
+              />
+            </a>
+          </div>
+        </div>
+        <nav aria-label="pagination-catalog">
+          <ul class="pagination justify-content-center my-3">
+            <li class="page-item">
+              <a class="active" href="./catalog-movies-action-pag1.html">1</a>
+            </li>
+            <li class="page-item">
+              <a href="./catalog-movies-action-pag2.html">2</a>
+            </li>
+            <li class="page-item">
+              <a href="./error404.html">3</a>
+            </li>
+            <li class="page-item">
+              <a href="./catalog-movies-action-pag2.html" aria-label="Siguiente">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </main>
+    <footer class="py-3">
+      <section class="container text-center">
+        <article class="row">
+          <aside class="col-md-4">
+            <img
+              src="../img/rolling-logo-circle.png"
+              width="80rem"
+              alt="Logo"
+            />
+          </aside>
+          <aside class="col-md-4">
+            <h5 class="mt-2 mt-md-0">Redes</h5>
+            <div
+              class="socials mt-2 mt-md-0 d-flex justify-content-center text-center"
+            >
+              <a href="./error404.html"><i class="bi bi-facebook"></i></a>
+              <a href="error404.html"><i class="bi bi-twitter"></i></a>
+              <a href="error404.html"><i class="bi bi-instagram"></i></a>
+            </div>
+          </aside>
+          <aside class="col-md-4">
+            <h5 class="mt-2 mt-md-0">Nosotros</h5>
+            <div class="sec-we mt-2 mt-md-0 d-flex flex-column text-center">
+              <a href="./we.html" class="fw-light">Acerca de nosotros</a>
+              <a href="./contact.html" class="fw-light">Contacto</a>
+            </div>
+          </aside>
+        </article>
+      </section>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

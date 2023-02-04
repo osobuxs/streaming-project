@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/rolling-logo-circle.png" />
+    <meta name="description" content="Servicio de streaming Rolling+" />
+    <meta name="author" content="Group 1, Comision 39i" />
+    <meta name="keywords" content="Peliculas, Series, Terror, Comedia" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Rolling+</title>
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg py-3">
+      <nav class="container-fluid d-flex align-items-center">
+        <div class="container-image d-none d-lg-block">
+          <a class="navbar-brand" href="../index.html"
+            ><img src="../img/rolling-logo-circle.png" class="w-100" alt="Logo"
+          /></a>
+        </div>
+        <div class="d-flex w-100 px-2">
+          <div class="d-flex">
+            <button
+              class="navbar-toggler px-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="navbar-toggler-icon bi bi-list"></i>
+            </button>
+            <form class="d-flex align-items-center ms-4" role="search">
+              <i class="bi bi-search"></i>
+              <input
+                class="w-75 ms-3"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+            </form>
+          </div>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mt-4 mt-lg-0 me-lg-4 mb-4 mb-lg-0">
+            <li class="menu-item">
+              <a class="menu-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="./series.html">Series</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="./movies.html">Películas</a>
+            </li>
+            <li class="menu-item">
+              <a
+                class="menu-link link-active"
+                aria-current="page"
+                href="./subscriptions.html"
+                >Suscripciones</a
+              >
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="./we.html">Nosotros</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link" href="./contact.html">Contactos</a>
+            </li>
+          </ul>
+          <a href="./profile.html">
+            <img
+              src="../img/profile/profile-01.png"
+              alt="logo de perfil"
+              class="profile-img-size"
+            />
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <!-- Seccion 1 -->
+        <article class="sec-subs">
+          <div
+            class="banner-title h-100 d-flex flex-column justify-content-center align-items-center"
+          >
+            <h3 class="text-center">Selecciona el plan ideal para vos</h3>
+            <p class="text-center">
+              Cambiá de plan o cancelalo cuando quieras.
+            </p>
+          </div>
+        </article>
+        <!-- Seccion 2 planes -->
+        <article
+          class="sec-plan d-flex justify-content-center align-items-center"
+        >
+          <aside class="text-center my-2">
+            <div class="card-body p-1">
+              <h5 class="card-title mt-5 mb-4 fw-bold fs-2">Básico</h5>
+              <h6 class="mb-4"><span class="price">$799</span> /mes</h6>
+              <div class="ms-5">
+                <div class="d-flex">
+                  <i class="bi bi-check-circle-fill me-2 text-success"></i>
+                  <p class="mb-3">Sin anuncios</p>
+                </div>
+                <div class="d-flex">
+                  <i class="bi bi-x-circle-fill me-2 text-danger"></i>
+                  <p class="mb-3">Full HD</p>
+                </div>
+                <div class="d-flex">
+                  <i class="bi bi-x-circle-fill me-2 text-danger"></i>
+                  <p class="mb-4">Multidispositivo</p>
+                </div>
+              </div>
+              <button type="button" class="btn btn-buy">Comprar</button>
+            </div>
+          </aside>
+          <aside class="text-center my-2">
+            <div class="card-body p-1">
+              <h5 class="card-title mt-5 mb-4 fw-bold fs-2">Estándar</h5>
+              <h6 class="mb-4"><span class="price">$1299</span> /mes</h6>
+              <div class="ms-5">
+                <div class="d-flex">
+                  <i class="bi bi-check-circle-fill me-2 text-success"></i>
+                  <p class="mb-3">Sin anuncios</p>
+                </div>
+                <div class="d-flex">
+                  <i class="bi bi-check-circle-fill me-2 text-success"></i>
+                  <p class="mb-3">Full HD</p>
+                </div>
+                <div class="d-flex">
+                  <i class="bi bi-x-circle-fill me-2 text-danger"></i>
+                  <p class="mb-4">Multidispositivo</p>
+                </div>
+              </div>
+              <button type="button" class="btn btn-buy">Comprar</button>
+            </div>
+          </aside>
+          <aside class="text-center my-2">
+            <div class="card-body p-1">
+              <h5 class="card-title mt-5 mb-4 fw-bold fs-2">Premium</h5>
+              <h6 class="mb-4"><span class="price">$1899</span> /mes</h6>
+              <div class="ms-5">
+                <div class="d-flex">
+                  <i class="bi bi-check-circle-fill me-2 text-success"></i>
+                  <p class="mb-3">Sin anuncios</p>
+                </div>
+                <div class="d-flex">
+                  <i class="bi bi-check-circle-fill me-2 text-success"></i>
+                  <p class="mb-3">Full HD</p>
+                </div>
+                <div class="d-flex">
+                  <i class="bi bi-check-circle-fill me-2 text-success"></i>
+                  <p class="mb-4">Multidispositivo</p>
+                </div>
+              </div>
+              <button type="button" class="btn btn-buy">Comprar</button>
+            </div>
+          </aside>
+        </article>
+      </section>
+      <section class="my-5">
+        <!-- Seccion 3 -->
+        <article class="sec-subs">
+          <div
+            class="banner-title h-100 d-flex flex-column justify-content-center align-items-center"
+          >
+            <h3 class="text-center">
+              Creá una cuenta para empezar con la suscripción
+            </h3>
+            <p class="text-center">
+              Cambiá de plan o cancelalo cuando quieras.
+            </p>
+          </div>
+        </article>
+        <!-- Seccion 4 -->
+        <article class="sec-account mx-5">
+          <form action="./error404.html">
+            <input
+              class="form-control mb-3 p-3"
+              type="text"
+              placeholder="Nombre"
+              aria-label="nombre de usuario"
+              required
+            /><input
+              class="form-control mb-3 p-3"
+              type="text"
+              placeholder="Apellido"
+              aria-label="Apellido de usuario"
+              required
+            /><input
+              class="form-control mb-3 p-3"
+              type="email"
+              placeholder="Email"
+              aria-label="Email de usuario"
+            /><input
+              class="form-control mb-3 p-3"
+              type="password"
+              placeholder="Contraseña"
+              aria-label="Contraseña de usuario"
+            />
+            <button type="submit" class="mb-3 p-3 btn-primary">
+              Crear cuenta
+            </button>
+          </form>
+        </article>
+      </section>
+    </main>
+    <footer class="py-3">
+      <section class="container text-center">
+        <article class="row">
+          <aside class="col-md-4">
+            <img
+              src="../img/rolling-logo-circle.png"
+              width="80rem"
+              alt="Logo"
+            />
+          </aside>
+          <aside class="col-md-4">
+            <h5 class="mt-2 mt-md-0">Redes</h5>
+            <div
+              class="socials mt-2 mt-md-0 d-flex justify-content-center text-center"
+            >
+              <a href="./error404.html"><i class="bi bi-facebook"></i></a>
+              <a href="./error404.html"><i class="bi bi-twitter"></i></a>
+              <a href="./error404.html"><i class="bi bi-instagram"></i></a>
+            </div>
+          </aside>
+          <aside class="col-md-4">
+            <h5 class="mt-2 mt-md-0">Nosotros</h5>
+            <div class="sec-we mt-2 mt-md-0 d-flex flex-column text-center">
+              <a href="./we.html" class="fw-light">Acerca de nosotros</a>
+              <a href="./contact.html" class="fw-light">Contacto</a>
+            </div>
+          </aside>
+        </article>
+      </section>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

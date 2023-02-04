@@ -1,0 +1,1048 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #1f2130;
+}
+
+.navbar {
+  background-color: #0f1119;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar .navbar-toggler {
+  color: #fff;
+  border: none;
+  outline: none;
+  line-height: normal;
+}
+
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar .navbar-toggler-icon {
+  background-image: none;
+  padding-top: 0.2rem;
+}
+
+.navbar .container-image {
+  width: 6rem;
+}
+
+.navbar form .bi-search {
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.navbar form input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+.navbar form input::-moz-placeholder {
+  font-size: 0.8rem;
+}
+
+.navbar form input:-ms-input-placeholder {
+  font-size: 0.8rem;
+}
+
+.navbar form input::placeholder {
+  font-size: 0.8rem;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar .navbar-collapse .navbar-nav {
+  gap: 2rem;
+}
+
+.navbar .navbar-collapse .navbar-nav .menu-item .menu-link {
+  text-decoration: none;
+  padding: 0.6rem 0;
+}
+
+.navbar .navbar-collapse .navbar-nav .menu-item .menu-link:hover {
+  border-bottom: 2px solid #008bff;
+}
+
+.navbar .navbar-collapse .navbar-nav .menu-item .link-active {
+  border-bottom: 2px solid #008bff;
+}
+
+.icon-profile {
+  width: 88.36px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
+header {
+  z-index: 3;
+}
+
+.img-banner {
+  width: 100%;
+  height: 700px;
+}
+
+.modal-content {
+  background: #1f2130;
+  color: white;
+  margin-top: 25%;
+  opacity: 0.9;
+  box-shadow: rgba(0, 0, 0, 0.75);
+  justify-content: center;
+}
+
+.button-login {
+  height: 3rem;
+  background: #008bff;
+  color: white;
+}
+
+.btn-close {
+  top: 1rem;
+  right: 1rem;
+}
+
+.text-login {
+  padding-top: 2rem;
+}
+
+.color-perfil nav {
+  background-color: #1f2130;
+}
+
+.profile-design-page article div {
+  position: relative;
+}
+
+.profile-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.profile-design {
+  width: 7rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.profile-container-design:hover {
+  transform: scale(1.1);
+}
+
+.profile-container-design {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.profile-container-design i {
+  margin-top: 5rem;
+  margin-left: -0.5rem;
+}
+
+.line-design-separate {
+  margin-left: -0.5rem;
+  width: 29rem;
+}
+
+.profile-img-size {
+  width: 3rem;
+}
+
+.footer-profile {
+  border-top: 0;
+}
+
+.contact-message {
+  height: 210px;
+}
+
+.btn-login {
+  height: 48px;
+}
+
+.btn-primary {
+  padding: 0.6rem 1.6rem;
+  border-radius: 0.4rem;
+  font-size: 0.8rem;
+  color: #fff;
+  background-color: #008bff;
+  border: 2px solid #008bff;
+  transition: 0.3s;
+  line-height: normal;
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+  color: #008bff;
+}
+
+main {
+  min-height: calc(100vh - 322px);
+}
+
+main .sec-banner {
+  background: linear-gradient(rgba(5, 7, 12, 0.6), rgba(5, 7, 12, 0.6)),
+    url("../img/banner-carrousel/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+  max-height: 40rem;
+}
+
+main .sec-banner .banner-title h1 {
+  width: 85%;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+main .sec-banner .banner-title h1 span {
+  color: #008bff;
+}
+
+main .sec-banner .banner-title i {
+  font-size: 2rem;
+  color: #fff;
+}
+
+main .sec-recommended .recommended h4 {
+  font-size: 0.6rem;
+  color: #fff;
+}
+
+main .sec-recommended .recommended .movies {
+  height: 9rem;
+  margin-top: -0.2rem;
+  padding-right: 1rem;
+  gap: 1rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+main .sec-recommended .recommended .movies .movie {
+  height: 6rem;
+}
+
+main .sec-recommended .recommended .movies .movie img {
+  border-radius: 0.3rem;
+  -o-object-fit: cover;
+  object-fit: cover;
+  box-shadow: 0px 11px 11px -4px rgba(0, 0, 0, 0.75);
+}
+
+main .sec-recommended .recommended .movies::-webkit-scrollbar {
+  width: 100%;
+}
+
+main .sec-publicity {
+  margin-top: 1rem;
+  background-color: #2c2e3a;
+  border: 4px solid #42444f;
+  height: 18rem;
+}
+
+main .sec-publicity .publicity .publicity-images img {
+  width: 12rem;
+  height: 7rem;
+  -o-object-fit: cover;
+  object-fit: cover;
+  box-shadow: 0px 11px 11px -4px rgba(0, 0, 0, 0.75);
+  border-radius: 0.6rem;
+}
+
+main .sec-publicity .publicity .publicity-text h3 {
+  font-size: 1rem;
+  color: #fff;
+}
+
+main .sec-publicity .publicity .publicity-text h3 span {
+  color: #008bff;
+}
+
+main .sec-publicity .publicity .publicity-text p {
+  color: #fff;
+}
+
+main .sec-publicity .publicity .publicity-text button {
+  letter-spacing: 0.2rem;
+  margin-bottom: 1.6rem;
+}
+
+main .sec-publicity .publicity .publicity-text .button {
+  margin-bottom: 1.6rem;
+}
+
+main .sec-suscription {
+  width: 85%;
+  margin: 6rem auto;
+  border-radius: 1rem;
+  height: 24rem;
+  background-color: #42444f;
+}
+
+main .sec-suscription .suscription .suscription-text h3 {
+  margin: 1rem 0 0;
+  font-size: 1rem;
+  color: #fff;
+}
+
+main .sec-suscription .suscription .suscription-text p {
+  width: 55%;
+  margin: 1rem auto;
+  font-size: 0.6rem;
+  color: #fff;
+}
+
+.button-series ::webkit-scrollbar {
+  display: none;
+}
+
+.button-banner {
+  width: 0.6rem !important;
+  height: 0.6rem !important;
+  border-radius: 50% t;
+}
+
+.title-banner {
+  right: 10%;
+  animation-name: title;
+  animation-duration: 3s;
+  top: 0;
+  left: 0;
+}
+
+@keyframes title {
+  0% {
+    right: 0;
+  }
+
+  25% {
+    left: 100%;
+  }
+}
+
+#img-distinta {
+  max-width: 30%;
+  padding-left: 3rem;
+}
+
+.line-button {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+}
+
+.image-carrusel-width {
+  box-shadow: 0px 11px 20px rgba(0, 0, 0, 0.75);
+  width: 20%;
+}
+
+.image-carrusel-width:hover {
+  transform: scale(0.9);
+}
+
+.imag-hover {
+  background-image: url("../img/continued-view/hover-1.jpg");
+  width: 25rem;
+  height: 14rem;
+  border-radius: 1rem;
+  opacity: 0.5;
+  padding: 1rem;
+  margin-left: 2rem;
+  box-shadow: 0px 11px 11px -4px rgba(0, 0, 0, 0.75);
+}
+
+.text-hover {
+  margin-top: 7rem;
+  color: #fff;
+  opacity: 0;
+}
+
+.imag-hover:hover {
+  transform: scale(1.1);
+  background-image: url("../img/continued-view/hover-9.png");
+}
+
+.text-hover:hover {
+  opacity: 1;
+}
+
+.imag-hover-second {
+  background-image: url("../img/continued-view/hover-5.jpg");
+  width: 25rem;
+  height: 14rem;
+  border-radius: 1rem;
+  opacity: 0.5;
+  padding: 1rem;
+  margin-left: 2rem;
+  box-shadow: 0px 11px 11px -4px rgba(0, 0, 0, 0.75);
+}
+
+.imag-hover-second:hover {
+  transform: scale(1.1);
+  background-image: url("../img/continued-view/hover-10.png");
+}
+
+.form-login {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.text-login {
+  padding-top: 2rem;
+  top: 1rem;
+  left: 1rem;
+}
+
+.form-login {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.container-catalog {
+  margin-inline: 5%;
+}
+
+.page-item a {
+  color: rgb(211, 211, 211);
+  padding: 0.5rem;
+  margin: 0.2rem;
+  transition: background-color 0.3s;
+  border: 1px solid white;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  padding: 0.6rem;
+  background-color: #008cffb0;
+  color: rgb(241, 241, 241);
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #4d4e4e;
+}
+
+.zoom-catalog:hover {
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+
+main .sec-details-movie {
+  background: linear-gradient(rgba(46, 47, 49, 0.6), rgba(3, 5, 9, 0.6)),
+    url("../img/description-image/toy-story-4/toy-story-4-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 50rem;
+  max-height: 40rem;
+}
+
+main .sec-details-movie .sec-title h1 {
+  color: #fff;
+  font-size: 2.2rem;
+}
+
+main .sec-details-movie .sec-title p {
+  color: #fff;
+  font-size: 0.7rem;
+  padding-right: 2rem;
+}
+
+hr {
+  border: 0.1rem solid #fff;
+  width: 75%;
+  position: relative;
+}
+
+main .sec-info .sec-info-details h3 {
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+main .sec-info .sec-info-details p {
+  color: #fff;
+  font-size: 0.7rem;
+}
+
+main .sec-suggestions {
+  color: #fff;
+}
+
+main .sec-suggestions .suggestion h4 {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+main .sec-suggestions .suggestion .movies {
+  height: 15rem;
+  width: 100%;
+  margin-top: -0.2rem;
+  padding-right: 1rem;
+  gap: 1rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+main .sec-suggestions .suggestion .movies .movie {
+  height: 7rem;
+}
+
+main .sec-suggestions .suggestion .movies .movie img {
+  border-radius: 0.3rem;
+  -o-object-fit: cover;
+  object-fit: cover;
+  box-shadow: 0px 11px 11px -4px rgba(0, 0, 0, 0.75);
+}
+
+main .sec-suggestions .suggestion .movies::-webkit-scrollbar {
+  width: 0;
+}
+
+main .sec-suggestions .suggestion .movies .movie p {
+  font-size: 0.7rem;
+}
+
+main .sec-details-serie {
+  background: linear-gradient(rgba(46, 47, 49, 0.6), rgba(3, 5, 9, 0.6)),
+    url("../img/description-image/moonknight/moonknight-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 50rem;
+  max-height: 40rem;
+}
+
+main .sec-details-serie .sec-title h1 {
+  color: #fff;
+  font-size: 2.2rem;
+}
+
+main .sec-details-serie .sec-title p {
+  color: #fff;
+  font-size: 0.7rem;
+  padding-right: 2rem;
+}
+
+/* main .sec-details-movie .sec-title h1 {
+  color: #fff;
+  font-size: 3.5rem;
+} */
+
+/* main .sec-details-movie .sec-title p {
+  color: #fff;
+  font-size: 1.2rem;
+  padding-right: 1rem;
+} */
+
+/* main .sec-details-serie .sec-title h1 {
+  color: #fff;
+  font-size: 3.5rem;
+} */
+
+/* main .sec-details-serie .sec-title p {
+  color: #fff;
+  font-size: 1.2rem;
+  padding-right: 10rem;
+} */
+
+main .sec-info .sec-info-details h3 {
+  font-size: 1.2rem;
+}
+
+main .sec-suggestions .suggestion .movies {
+  gap: 3rem;
+}
+
+main .sec-suggestions .suggestion .movies .movie p {
+  font-size: 1rem;
+}
+
+main .sec-suggestions .suggestion .movies .movie {
+  height: 9rem;
+}
+
+main .sec-subs {
+  height: 15rem;
+  max-height: 40rem;
+}
+
+main .sec-subs .banner-title h3 {
+  width: 75%;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+main .sec-subs .banner-title p {
+  width: 75%;
+  font-size: 0.9rem;
+  color: rgb(173, 173, 173);
+}
+
+main .sec-plan {
+  flex-direction: column;
+}
+
+main .sec-plan aside {
+  border-radius: 1.5rem;
+  background-color: #fff;
+  width: 18rem;
+  height: 25rem;
+}
+
+main .sec-plan .price {
+  color: #008bff;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+main .sec-plan .btn-buy {
+  background-color: #008bff;
+  font-size: large;
+  width: 45%;
+  height: 3.5rem;
+  color: #fff;
+  border: 2px solid #008bff;
+}
+
+main .sec-plan .btn-buy:hover {
+  background-color: transparent;
+  color: #008bff;
+  transition: 0.3s;
+}
+
+main .sec-account button {
+  background-color: #008bff;
+  font-size: large;
+  font-weight: 500;
+  color: #fff;
+  width: 100%;
+  border-radius: 0.4rem;
+}
+
+main section .error-text {
+  margin-top: 4rem;
+}
+
+main section .error-img img {
+  width: 100%;
+}
+
+main section .error-text h3 {
+  font-size: 1rem;
+  color: #fff;
+}
+
+main section .error-text p {
+  font-size: 1rem;
+  color: rgb(173, 173, 173);
+}
+
+main section article .text-link {
+  color: #008bff;
+}
+
+footer {
+  border-top: 1px solid #42444f;
+}
+
+footer aside {
+  color: #fff;
+}
+
+footer aside .socials {
+  gap: 0.6rem;
+}
+
+footer aside .socials i {
+  font-size: 0.8rem;
+  color: rgb(175, 172, 172);
+}
+
+footer aside .socials a {
+  color: #fff;
+}
+
+footer aside .sec-we a {
+  font-size: 0.8rem;
+  color: rgb(175, 172, 172);
+  text-decoration: none;
+}
+
+footer aside .sec-we a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 767px) {
+  main .sec-banner {
+    height: 30rem;
+  }
+
+  main .sec-banner .banner-title h1 {
+    width: 45%;
+    font-size: 1.4rem;
+  }
+
+  main .sec-banner .banner-title i {
+    font-size: 2.4rem;
+  }
+
+  main .sec-publicity {
+    background-color: #2c2e3a;
+    border: 4px solid #42444f;
+    height: 22rem;
+  }
+
+  main .sec-publicity .publicity {
+    gap: 3rem;
+  }
+
+  main .sec-publicity .publicity .publicity-images img {
+    width: 18rem;
+    height: 12rem;
+    -o-object-fit: cover;
+    object-fit: cover;
+    box-shadow: 0px 11px 11px -4px rgba(0, 0, 0, 0.75);
+    border-radius: 0.6rem;
+  }
+
+  main .sec-publicity .publicity .publicity-text {
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  main .sec-publicity .publicity .publicity-text h3 {
+    width: 75%;
+    font-size: 1.6rem;
+  }
+
+  main .sec-publicity .publicity .publicity-text p {
+    font-size: 1.2rem;
+  }
+
+  main .sec-suscription {
+    width: 85%;
+    height: 18rem;
+  }
+
+  main .sec-suscription .suscription {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  main .sec-suscription .suscription .suscription-images {
+    width: 100%;
+  }
+
+  main .sec-suscription .suscription .suscription-images img {
+    width: 70%;
+  }
+
+  main .sec-suscription .suscription .suscription-text h3 {
+    margin: 0;
+    font-size: 1.6rem;
+  }
+
+  main .sec-suscription .suscription .suscription-text p {
+    width: 50%;
+    margin: 1rem 0;
+    font-size: 0.7rem;
+  }
+  main .sec-subs .banner-title h3 {
+    width: 75%;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
+  main .sec-subs .banner-title p {
+    width: 75%;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+
+  main .sec-account form {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  main .sec-details-movie .sec-title h1 {
+    color: #fff;
+    font-size: 3.5rem;
+  }
+
+  main .sec-details-movie .sec-title p {
+    color: #fff;
+    font-size: 1.2rem;
+    padding-right: 1rem;
+  }
+
+  main .sec-details-serie .sec-title h1 {
+    color: #fff;
+    font-size: 3.5rem;
+  }
+
+  main .sec-details-serie .sec-title p {
+    color: #fff;
+    font-size: 1.2rem;
+    padding-right: 10rem;
+  }
+
+  main .sec-info .sec-info-details h3 {
+    font-size: 1.2rem;
+  }
+
+  main .sec-suggestions .suggestion .movies {
+    gap: 3rem;
+  }
+
+  main .sec-suggestions .suggestion .movies .movie p {
+    font-size: 1rem;
+  }
+
+  main .sec-suggestions .suggestion .movies .movie {
+    height: 9rem;
+  }
+
+  main section .error-img img {
+    width: 30rem;
+  }
+
+  main section .error-text h3 {
+    font-size: 1.4rem;
+    color: #fff;
+  }
+
+  main section .error-text p {
+    font-size: 1.4rem;
+    color: rgb(173, 173, 173);
+  }
+
+  main section article .text-link {
+    font-size: 1.2rem;
+  }
+
+  main .sec-subs .banner-title h3 {
+    width: 75%;
+    font-size: 1.5rem;
+  }
+
+  main .sec-subs .banner-title p {
+    width: 75%;
+    font-size: 1.2rem;
+  }
+
+  main .sec-account form {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .button-series a {
+    width: 6.8rem;
+    height: 2rem;
+    margin: 0;
+    padding: 0;
+    padding-top: 0.3rem;
+    text-align: center;
+  }
+
+  .profile-design {
+    width: 10rem;
+  }
+
+  .profile-container-design i {
+    margin-top: 7rem;
+  }
+}
+
+@media (max-width: 864px) {
+  .imag-hover {
+    background-image: url("../img/continued-view/hover-media-1.png");
+    width: 12rem;
+    height: 7rem;
+    margin-bottom: 2rem;
+  }
+
+  .imag-hover-second {
+    background-image: url("../img/continued-view/hover-media-3.png");
+    width: 12rem;
+    height: 7rem;
+  }
+  .imag-hover:hover {
+    background-image: url("../img/continued-view/hover-media-6.png");
+  }
+
+  .imag-hover-second:hover {
+    background-image: url("../img/continued-view/hover-media-7.png");
+  }
+}
+@media (max-width: 767px) {
+  .image-carrusel-width {
+    width: 20%;
+  }
+}
+
+@media (min-width: 992px) {
+  main .sec-banner {
+    height: 40rem;
+  }
+
+  main .sec-banner .banner-title h1 {
+    width: 30%;
+    font-size: 2rem;
+  }
+
+  main .sec-banner .banner-title i {
+    font-size: 3rem;
+  }
+
+  main .sec-recommended .recommended .movies {
+    margin-top: -0.1rem;
+  }
+
+  main .sec-recommended .recommended h4 {
+    font-size: 1.3rem;
+  }
+
+  main .sec-recommended .recommended .movies {
+    height: 14rem;
+  }
+
+  main .sec-recommended .recommended .movies .movie {
+    height: 12rem;
+    border-radius: 0.3rem;
+  }
+
+  main .sec-publicity {
+    background-color: #2c2e3a;
+    border: 4px solid #42444f;
+    height: 22rem;
+  }
+
+  main .sec-publicity .publicity {
+    gap: 5rem;
+  }
+
+  main .sec-publicity .publicity .publicity-images img {
+    width: 32rem;
+    height: 18rem;
+  }
+
+  main .sec-publicity .publicity .publicity-text {
+    height: 12rem;
+  }
+
+  main .sec-suscription {
+    width: 60%;
+    margin: 6rem auto;
+  }
+
+  main .sec-suscription .suscription .suscription-images img {
+    width: 50%;
+  }
+
+  main .sec-suscription .suscription .suscription-text p {
+    width: 90%;
+  }
+
+  .navbar {
+    width: 100%;
+    position: sticky;
+    top: 0;
+  }
+
+  main .sec-subs .banner-title h3 {
+    width: 75%;
+    font-size: 1.6rem;
+    color: #fff;
+  }
+
+  main .sec-subs .banner-title p {
+    width: 75%;
+    font-size: 1.4rem;
+    color: #fff;
+  }
+
+  main .sec-subs {
+    margin-top: 3rem;
+  }
+
+  main .sec-plan {
+    flex-direction: row;
+  }
+
+  main .sec-plan aside {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+
+  main .sec-account form {
+    margin-left: 20rem;
+    margin-right: 20rem;
+  }
+
+  main .sec-details-movie .sec-title h1 {
+    color: #fff;
+    font-size: 4rem;
+  }
+
+  main .sec-details-movie .sec-title p {
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  main .sec-details-serie .sec-title h1 {
+    color: #fff;
+    font-size: 4rem;
+  }
+
+  main .sec-details-serie .sec-title p {
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  hr {
+    width: 50%;
+    position: relative;
+  }
+
+  main .sec-info .sec-info-details h3 {
+    font-size: 1rem;
+  }
+
+  main .sec-info {
+    justify-content: space-around;
+  }
+
+  main .sec-info .sec-info-details p {
+    font-size: 0.8rem;
+  }
+
+  .border-banner {
+    border: 2px;
+    border-color: transparent;
+  }
+
+  .border-banner .carousel-item:hover {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    transition: 0.2s;
+  }
+}
